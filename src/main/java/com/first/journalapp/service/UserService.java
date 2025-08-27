@@ -4,8 +4,6 @@ import com.first.journalapp.repository.UserRepository;
 import com.first.journalapp.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.bson.types.ObjectId;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
@@ -21,7 +19,6 @@ public class UserService {
     private UserRepository userRepository;
     @Autowired
     private  PasswordEncoder passwordEncoder;
-
 
 
     public boolean saveUser(User user){
