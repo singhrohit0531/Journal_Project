@@ -43,8 +43,8 @@ public class JournalApp {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
 //        mailSender.setHost("smtp.gmail.com");
 //        mailSender.setPort(587);
-//        mailSender.setUsername("rohitsingh0531@gmail.com");       // Gmail
-//        mailSender.setPassword("lunr potm frkr xisa");     // App password
+//        mailSender.setUsername("email id");       // Gmail
+//        mailSender.setPassword("password for email access");     // App password
 
 //        Properties props = mailSender.getJavaMailProperties();
 //        props.put("mail.smtp.auth", "true");
